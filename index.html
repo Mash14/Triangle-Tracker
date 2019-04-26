@@ -19,16 +19,19 @@
       </ul>
       <h2>Dimensions</h2>
       <fieldset>
-        <p>Length<br>
-        <input type="number" name="sidea" id="fvalue"></p>
+        Length<br>
+        <input id="fvalue" type="number" name="sidea" >
         <br>
-        <p>Width<br>
-        <input type="number" name="sideb" id="svalue"></p>
-        </br>
-        <p>Height<br>
-        <input type="number" name="sidec" id="tvalue"></p>
-        </br>
-        <input class="button1" type="button" value="check" onclick="result()">
+        Width<br>
+        <input id="svalue" type="number" name="sideb" >
+        <br>
+        Height<br>
+        <input id="tvalue" type="number" name="sidec" >
+        <br>
+        Answer:<br>
+        <input type="button" value="check" onclick="display()">
+        <p id="result"></p>
+        <br></br>
       </fieldset>
     <h3>About Program</h3>
       <p>This program helps a person know the type of a triangle based on its dimensions.</P>
@@ -41,7 +44,6 @@
         <li><em>Telephone number</em>: 0704478767</li>
         <li><em>Email address</em>: <a href="http://mail.google.com">mashalonzo741@gmail.com</a></li>
         <li><em>Site</em>: <a href="http://triangle.com">Triangle.com</a></li>
-
+  <script type="text/javascript" src="js/scripts.js"></script>
   </body>
-    <script src="js/scripts.js"></script>
 </html>
