@@ -1,6 +1,7 @@
 # Triangle-Tracker
  
 Description
+
 The project is about a program that is designed to show a type of triangle based on the dimensions given. You write the dimensions of the triangle and it tells you what kind of a triangle it is.
  
 Author's Details
